@@ -1,0 +1,11 @@
+{
+  "name": "shopify-themekit-wepack-starter",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "theme open -e=development && theme watch -e=development",
+    "deploy": "theme deploy -e=production",
+    "deploy:live": "theme deploy -e=production -c=$PWD/config.live.yml"
+  }
+}
